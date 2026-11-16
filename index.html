@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="A personal portfolio for a Tulane University student. Add your name, major, interests, experience, and contact details to make it yours.">
+  <title>[YOUR NAME] — Tulane University Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="[YOUR NAME], home">[YN]<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.3A8.7 8.7 0 0 1 8.7 3.8 8.8 8.8 0 1 0 20.2 15.3Z"/></svg>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> TULANE UNIVERSITY <span class="eyebrow-divider">/</span> NEW ORLEANS, LA</p>
+        <h1 id="hero-title">[YOUR NAME]<span class="title-period">.</span></h1>
+        <p class="hero-subtitle">[YOUR MAJOR] student with a curiosity for <span class="highlight">[YOUR INTERESTS]</span>.</p>
+        <p class="hero-intro">A thoughtful, growing perspective shaped by learning, collaboration, and the energy of New Orleans.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="edit-hint"><span aria-hidden="true">✳</span> A personal introduction, in progress.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Abstract illustration inspired by the colors and curves of New Orleans">
+        <div class="art-grid" aria-hidden="true"></div>
+        <div class="art-orbit orbit-one" aria-hidden="true"></div>
+        <div class="art-orbit orbit-two" aria-hidden="true"></div>
+        <div class="art-sun" aria-hidden="true"></div>
+        <div class="art-arch" aria-hidden="true"><span></span></div>
+        <div class="art-label"><span class="art-label-dot" aria-hidden="true"></span> CURIOUS BY NATURE</div>
+        <span class="art-spark spark-one" aria-hidden="true">✳</span>
+        <span class="art-spark spark-two" aria-hidden="true">✦</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line" aria-hidden="true"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><p class="section-index">01 <span>/</span> ABOUT</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">A little context<br>goes a long way.</p></div>
+        <div class="section-main about-main">
+          <p class="eyebrow">A SHORT INTRODUCTION</p>
+          <h2 id="about-title">Learning with<br><em>intention.</em></h2>
+          <div class="about-text">
+            <!-- PERSONALIZE: Replace the bracketed fields with a short, true-to-you biography. -->
+            <p>I’m <strong>[YOUR NAME]</strong>, a <strong>[YOUR MAJOR]</strong> student at Tulane University. I’m interested in <strong>[YOUR INTERESTS]</strong> and in the ways thoughtful ideas can make a difference.</p>
+            <p>As I grow through my studies and experiences, I’m looking forward to meeting people who care about asking good questions, sharing perspectives, and doing meaningful work. Outside the classroom, you’ll find me <strong>[ADD A PERSONAL DETAIL OR HOBBY — OPTIONAL]</strong>.</p>
+          </div>
+          <div class="about-note"><span class="note-mark" aria-hidden="true">✳</span><p>Currently learning, exploring, and open to new perspectives.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><p class="section-index">02 <span>/</span> EXPERIENCE</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">The things I do<br>and care about.</p></div>
+        <div class="section-main">
+          <div class="section-heading-row"><div><p class="eyebrow">EXPERIENCE &amp; ACTIVITIES</p><h2 id="experience-title">Where I <em>show up.</em></h2></div><p class="heading-caption">Room to grow, contribute,<br>and try something new.</p></div>
+          <div class="experience-grid">
+            <!-- PERSONALIZE: Duplicate or replace cards with real roles, clubs, projects, or volunteer work. -->
+            <article class="experience-card card-featured">
+              <div class="card-topline"><span class="card-number">01</span><span class="card-symbol" aria-hidden="true">✳</span></div>
+              <p class="card-category">EXPERIENCE / ADD YOUR ROLE</p>
+              <h3>[Role or experience]</h3>
+              <p class="card-organization">[Organization or team] <span aria-hidden="true">·</span> [Dates]</p>
+              <p class="card-description">Add a concise, specific summary of what you did, what you learned, or how you contributed. Keep it accurate and make it your own.</p>
+              <span class="card-edit-label">PERSONALIZE THIS CARD</span>
+            </article>
+            <article class="experience-card">
+              <div class="card-topline"><span class="card-number">02</span><span class="card-symbol card-symbol-sun" aria-hidden="true">✦</span></div>
+              <p class="card-category">ACTIVITIES / ADD YOUR INVOLVEMENT</p>
+              <h3>[Club, project, or activity]</h3>
+              <p class="card-organization">[Your role or involvement] <span aria-hidden="true">·</span> [Dates]</p>
+              <p class="card-description">Share an activity that matters to you and a detail that helps a reader understand your part in it.</p>
+              <span class="card-edit-label">PERSONALIZE THIS CARD</span>
+            </article>
+          </div>
+          <p class="section-footnote"><span aria-hidden="true">↳</span> No experience to add yet? Use this space for coursework, a personal project, or something you’re excited to pursue.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+      <div class="shell section-grid">
+        <div class="section-aside"><p class="section-index">03 <span>/</span> SKILLS</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">Tools and strengths<br>I’m building.</p></div>
+        <div class="section-main skills-main">
+          <p class="eyebrow">A WORK IN PROGRESS</p>
+          <h2 id="skills-title">Things I’m <em>learning.</em></h2>
+          <p class="skills-intro">A few skills I’m developing through school, work, and everyday curiosity.</p>
+          <!-- PERSONALIZE: Replace every bracketed tag with a skill you can confidently discuss. -->
+          <ul class="skill-list" aria-label="Skills to personalize">
+            <li>[ADD A SKILL]</li><li>[ADD A SKILL]</li><li>[ADD A SKILL]</li><li>[ADD A TOOL OR SUBJECT]</li><li>[ADD A STRENGTH]</li><li>[ADD A LANGUAGE — OPTIONAL]</li>
+          </ul>
+          <p class="skills-note"><span class="note-mark" aria-hidden="true">✳</span> Choose skills that reflect what you actually know and enjoy doing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="shell contact-inner">
+        <p class="eyebrow">04 / GET IN TOUCH</p>
+        <h2 id="contact-title">Let’s start a<br><em>conversation.</em></h2>
+        <p class="contact-intro">Interested in connecting? I’d love to hear from you. Update the contact details below before sharing this page.</p>
+        <div class="contact-details">
+          <!-- PERSONALIZE: Add your real email and LinkedIn URL. Until then, these are intentionally plain text, not links. -->
+          <div class="contact-item"><span class="contact-label">EMAIL</span><span class="contact-value">[ADD YOUR EMAIL ADDRESS]</span></div>
+          <div class="contact-item"><span class="contact-label">LINKEDIN</span><span class="contact-value">[ADD YOUR LINKEDIN PROFILE URL]</span></div>
+        </div>
+        <p class="contact-reminder">These are placeholders—not active links. Add your details to make it easy to reach you.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><a class="wordmark footer-wordmark" href="#home" aria-label="Back to top">[YN]<span>.</span></a><p>Made with intention in New Orleans <span aria-hidden="true">✳</span></p><a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a></div>
+  </footer>
+</body>
+</html>
