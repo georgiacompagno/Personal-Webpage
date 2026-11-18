@@ -1,141 +1,485 @@
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f5f0">
-  <meta name="description" content="Georgia Compagno is a finance student at Tulane University pursuing a certificate in business analytics and AI.">
-  <title>Georgia Compagno — Tulane University Student</title>
+  <meta name="description" content="Georgia Compagno | Finance, Artificial Intelligence, and Business Strategy">
+  <title>Georgia Compagno | Finance & Business Strategy</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <nav class="nav shell" aria-label="Main navigation">
-      <a class="wordmark" href="#home" aria-label="Georgia Compagno, home">GC<span>.</span></a>
+      <a class="wordmark" href="#home">GC<span>.</span></a>
+
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </div>
+
       <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
-        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.3A8.7 8.7 0 0 1 8.7 3.8 8.8 8.8 0 1 0 20.2 15.3Z"/></svg>
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>
+        </svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.2 15.3A8.7 8.7 0 0 1 8.7 3.8 8.8 8.8 0 1 0 20.2 15.3Z"/>
+        </svg>
         <span class="theme-label">Dark mode</span>
       </button>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero shell" id="home" aria-labelledby="hero-title">
+
+    <!-- HERO -->
+    <section class="hero shell" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> TULANE UNIVERSITY <span class="eyebrow-divider">/</span> NEW ORLEANS, LA</p>
-        <h1 id="hero-title">Georgia Compagno<span class="title-period">.</span></h1>
-        <p class="hero-subtitle">Finance student pursuing a certificate in <span class="highlight">business analytics and AI</span>.</p>
-        <p class="hero-intro">Building a foundation in finance while exploring how analytics and artificial intelligence shape business.</p>
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          TULANE UNIVERSITY
+          <span class="eyebrow-divider">/</span>
+          CLASS OF 2029
+        </p>
+
+        <h1>Georgia Compagno<span class="title-period">.</span></h1>
+
+        <p class="hero-subtitle">
+          Exploring the intersection of
+          <span class="highlight">finance, artificial intelligence, and business strategy.</span>
+        </p>
+
+        <p class="hero-intro">
+          Finance student, organization founder, and aspiring business professional
+          passionate about using technology and strategic thinking to solve real-world challenges.
+        </p>
+
         <div class="hero-actions">
-          <a class="button button-primary" href="#experience">Explore my work <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a>
+          <a class="button button-primary" href="#experience">
+            Explore my experience <span aria-hidden="true">↗</span>
+          </a>
+          <a class="text-link" href="#contact">
+            Get in touch <span aria-hidden="true">↓</span>
+          </a>
         </div>
-        <p class="edit-hint"><span aria-hidden="true">✳</span> A personal introduction, in progress.</p>
       </div>
-      <div class="hero-art" role="img" aria-label="Abstract illustration inspired by the colors and curves of New Orleans">
-        <div class="art-grid" aria-hidden="true"></div>
-        <div class="art-orbit orbit-one" aria-hidden="true"></div>
-        <div class="art-orbit orbit-two" aria-hidden="true"></div>
-        <div class="art-sun" aria-hidden="true"></div>
-        <div class="art-arch" aria-hidden="true"><span></span></div>
-        <div class="art-label"><span class="art-label-dot" aria-hidden="true"></span> CURIOUS BY NATURE</div>
-        <span class="art-spark spark-one" aria-hidden="true">✳</span>
-        <span class="art-spark spark-two" aria-hidden="true">✦</span>
+
+      <div class="hero-art" role="img" aria-label="Abstract decorative illustration">
+        <div class="art-grid"></div>
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div>
+        <div class="art-arch"><span></span></div>
+        <div class="art-label">
+          <span class="art-label-dot"></span>
+          FINANCE × AI × STRATEGY
+        </div>
+        <span class="art-spark spark-one">✳</span>
+        <span class="art-spark spark-two">✦</span>
       </div>
-      <a class="scroll-cue" href="#about"><span class="scroll-line" aria-hidden="true"></span> SCROLL TO EXPLORE</a>
+
+      <a class="scroll-cue" href="#about">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
     </section>
 
-    <section class="section section-about" id="about" aria-labelledby="about-title">
+    <!-- ABOUT -->
+    <section class="section section-about" id="about">
       <div class="shell section-grid">
-        <div class="section-aside"><p class="section-index">01 <span>/</span> ABOUT</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">A little context<br>goes a long way.</p></div>
+
+        <div class="section-aside">
+          <p class="section-index">01 <span>/</span> ABOUT</p>
+          <span class="aside-rule"></span>
+          <p class="aside-note">A little context<br>goes a long way.</p>
+        </div>
+
         <div class="section-main about-main">
-          <p class="eyebrow">A SHORT INTRODUCTION</p>
-          <h2 id="about-title">Learning with<br><em>intention.</em></h2>
+          <p class="eyebrow">GET TO KNOW ME</p>
+
+          <h2>Driven by<br><em>curiosity.</em></h2>
+
           <div class="about-text">
-            <!-- PERSONALIZE: Add optional personal details or interests when you are ready. -->
-            <p>I’m <strong>Georgia Compagno</strong>, a finance major at Tulane University pursuing a certificate in business analytics and AI. I’m interested in the intersection of finance, data, and emerging technology.</p>
-            <p>As I grow through my studies and experiences, I’m looking forward to meeting people who care about asking good questions, sharing perspectives, and doing meaningful work. Outside the classroom, <strong>[ADD A PERSONAL DETAIL OR HOBBY — OPTIONAL]</strong>.</p>
+            <p>
+              I'm <strong>Georgia Compagno</strong>, a finance major at
+              Tulane University's A. B. Freeman School of Business,
+              pursuing a Business Analytics & Artificial Intelligence
+              certificate. I expect to graduate in May 2029.
+            </p>
+
+            <p>
+              My interests lie at the intersection of finance,
+              consulting, emerging technologies, and business strategy.
+              I'm particularly interested in how organizations can use
+              artificial intelligence to improve decision-making,
+              increase efficiency, and create value.
+            </p>
+
+            <p>
+              As the <strong>Founder and President of the AI & Business
+              Strategy Association</strong> at Tulane, I've gained
+              firsthand experience building an organization, leading
+              a team, and turning an idea into an operational initiative.
+            </p>
+
+            <p>
+              Originally from Marin County, California, I enjoy tennis,
+              music, and exploring new ideas. I value collaboration,
+              initiative, and opportunities to learn from people
+              with different experiences.
+            </p>
           </div>
-          <div class="about-note"><span class="note-mark" aria-hidden="true">✳</span><p>Currently learning, exploring, and open to new perspectives.</p></div>
+
+          <div class="about-note">
+            <span class="note-mark">✳</span>
+            <p>
+              Currently pursuing opportunities to gain hands-on
+              experience in finance, consulting, business operations,
+              and emerging technology.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+    <!-- EXPERIENCE -->
+    <section class="section section-experience" id="experience">
       <div class="shell section-grid">
-        <div class="section-aside"><p class="section-index">02 <span>/</span> EXPERIENCE</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">The things I do<br>and care about.</p></div>
+
+        <div class="section-aside">
+          <p class="section-index">02 <span>/</span> EXPERIENCE</p>
+          <span class="aside-rule"></span>
+          <p class="aside-note">Leadership,<br>initiative, and growth.</p>
+        </div>
+
         <div class="section-main">
-          <div class="section-heading-row"><div><p class="eyebrow">EXPERIENCE &amp; ACTIVITIES</p><h2 id="experience-title">Where I <em>show up.</em></h2></div><p class="heading-caption">Room to grow, contribute,<br>and try something new.</p></div>
-          <div class="experience-grid">
-            <!-- PERSONALIZE: Duplicate or replace cards with real roles, clubs, projects, or volunteer work. -->
-            <article class="experience-card card-featured">
-              <div class="card-topline"><span class="card-number">01</span><span class="card-symbol" aria-hidden="true">✳</span></div>
-              <p class="card-category">EXPERIENCE / ADD YOUR ROLE</p>
-              <h3>[Role or experience]</h3>
-              <p class="card-organization">[Organization or team] <span aria-hidden="true">·</span> [Dates]</p>
-              <p class="card-description">Add a concise, specific summary of what you did, what you learned, or how you contributed. Keep it accurate and make it your own.</p>
-              <span class="card-edit-label">PERSONALIZE THIS CARD</span>
-            </article>
-            <article class="experience-card">
-              <div class="card-topline"><span class="card-number">02</span><span class="card-symbol card-symbol-sun" aria-hidden="true">✦</span></div>
-              <p class="card-category">ACTIVITIES / ADD YOUR INVOLVEMENT</p>
-              <h3>[Club, project, or activity]</h3>
-              <p class="card-organization">[Your role or involvement] <span aria-hidden="true">·</span> [Dates]</p>
-              <p class="card-description">Share an activity that matters to you and a detail that helps a reader understand your part in it.</p>
-              <span class="card-edit-label">PERSONALIZE THIS CARD</span>
-            </article>
+          <div class="section-heading-row">
+            <div>
+              <p class="eyebrow">LEADERSHIP & PROFESSIONAL EXPERIENCE</p>
+              <h2>Where I <em>contribute.</em></h2>
+            </div>
           </div>
-          <p class="section-footnote"><span aria-hidden="true">↳</span> No experience to add yet? Use this space for coursework, a personal project, or something you’re excited to pursue.</p>
+
+          <div class="experience-grid">
+
+            <article class="experience-card card-featured">
+              <div class="card-topline">
+                <span class="card-number">01</span>
+                <span class="card-symbol">✳</span>
+              </div>
+
+              <p class="card-category">LEADERSHIP / ENTREPRENEURSHIP</p>
+
+              <h3>Founder & President</h3>
+
+              <p class="card-organization">
+                AI & Business Strategy Association (AIBSA)
+                · September 2026 – Present
+              </p>
+
+              <p class="card-description">
+                Founded a university-recognized student organization
+                focused on connecting AI with business. Lead an
+                eight-member executive board and approximately
+                40 members, overseeing organizational strategy,
+                recruitment, planning, and operations. Developed
+                the organization's constitution and presented a
+                budget supporting access to $1,000 in university
+                funding per semester.
+              </p>
+            </article>
+
+            <article class="experience-card">
+              <div class="card-topline">
+                <span class="card-number">02</span>
+                <span class="card-symbol card-symbol-sun">✦</span>
+              </div>
+
+              <p class="card-category">PROFESSIONAL EXPERIENCE</p>
+
+              <h3>Poolside Server, Busser & Chef's Assistant</h3>
+
+              <p class="card-organization">
+                Meadow Club · Summer 2026
+              </p>
+
+              <p class="card-description">
+                Delivered attentive hospitality and guest services
+                at a private country club. Collaborated with kitchen
+                and service teams to manage guest requests, support
+                food preparation, and maintain efficient daily
+                operations in a fast-paced environment.
+              </p>
+            </article>
+
+            <article class="experience-card">
+              <div class="card-topline">
+                <span class="card-number">03</span>
+                <span class="card-symbol">✳</span>
+              </div>
+
+              <p class="card-category">SALES & CUSTOMER RELATIONS</p>
+
+              <h3>Inside Sales Associate</h3>
+
+              <p class="card-organization">
+                Brad Gilbert Tennis Nation · 2025
+              </p>
+
+              <p class="card-description">
+                Assisted more than 30 customers daily with
+                tennis equipment and apparel recommendations.
+                Processed transactions, maintained store organization,
+                and developed communication and problem-solving
+                skills through direct customer interaction.
+              </p>
+            </article>
+
+            <article class="experience-card">
+              <div class="card-topline">
+                <span class="card-number">04</span>
+                <span class="card-symbol card-symbol-sun">✦</span>
+              </div>
+
+              <p class="card-category">ATHLETICS & LEADERSHIP</p>
+
+              <h3>Varsity Tennis Team Captain</h3>
+
+              <p class="card-organization">
+                Marin Catholic High School · 2023–2025
+              </p>
+
+              <p class="card-description">
+                Served as a team captain, mentored teammates,
+                and communicated with coaches. Recognized
+                as Most Improved Player in 2023 and
+                Most Valuable Player in 2024.
+              </p>
+            </article>
+
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+    <!-- PROJECTS -->
+    <section class="section section-experience" id="projects">
       <div class="shell section-grid">
-        <div class="section-aside"><p class="section-index">03 <span>/</span> SKILLS</p><span class="aside-rule" aria-hidden="true"></span><p class="aside-note">Tools and strengths<br>I’m building.</p></div>
-        <div class="section-main skills-main">
-          <p class="eyebrow">A WORK IN PROGRESS</p>
-          <h2 id="skills-title">Things I’m <em>learning.</em></h2>
-          <p class="skills-intro">A few skills I’m developing through school, work, and everyday curiosity.</p>
-          <!-- PERSONALIZE: Replace every bracketed tag with a skill you can confidently discuss. -->
-          <ul class="skill-list" aria-label="Skills to personalize">
-            <li>[ADD A SKILL]</li><li>[ADD A SKILL]</li><li>[ADD A SKILL]</li><li>[ADD A TOOL OR SUBJECT]</li><li>[ADD A STRENGTH]</li><li>[ADD A LANGUAGE — OPTIONAL]</li>
-          </ul>
-          <p class="skills-note"><span class="note-mark" aria-hidden="true">✳</span> Choose skills that reflect what you actually know and enjoy doing.</p>
+
+        <div class="section-aside">
+          <p class="section-index">03 <span>/</span> PROJECTS</p>
+          <span class="aside-rule"></span>
+          <p class="aside-note">Ideas turned<br>into action.</p>
+        </div>
+
+        <div class="section-main">
+          <div class="section-heading-row">
+            <div>
+              <p class="eyebrow">FEATURED PROJECTS</p>
+              <h2>What I'm <em>building.</em></h2>
+            </div>
+          </div>
+
+          <div class="experience-grid">
+
+            <article class="experience-card card-featured">
+              <div class="card-topline">
+                <span class="card-number">01</span>
+                <span class="card-symbol">✳</span>
+              </div>
+
+              <p class="card-category">ORGANIZATIONAL DEVELOPMENT</p>
+
+              <h3>Launching AIBSA at Tulane</h3>
+
+              <p class="card-organization">
+                Independent Leadership Initiative · 2026
+              </p>
+
+              <p class="card-description">
+                Took a student organization from concept to
+                university recognition. Developed foundational
+                documents, navigated the approval process,
+                recruited an executive board, and established
+                an operational structure for approximately
+                40 members.
+
+                This project strengthened my ability to coordinate
+                stakeholders, manage deadlines, organize teams,
+                and execute a long-term goal.
+              </p>
+            </article>
+
+            <article class="experience-card">
+              <div class="card-topline">
+                <span class="card-number">02</span>
+                <span class="card-symbol card-symbol-sun">✦</span>
+              </div>
+
+              <p class="card-category">PERSONAL TECHNOLOGY PROJECT</p>
+
+              <h3>Personal Portfolio Website</h3>
+
+              <p class="card-organization">
+                GitHub Pages · 2026
+              </p>
+
+              <p class="card-description">
+                Created and published this personal portfolio
+                through GitHub Pages using HTML, CSS, and
+                JavaScript with AI-assisted development.
+
+                The project provides a central place to present
+                my education, leadership experience, professional
+                background, and developing interests in finance
+                and technology.
+              </p>
+
+              <p>
+                <a class="text-link"
+                   href="https://github.com/georgiacompagno/Personal-Webpage"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  View GitHub project ↗
+                </a>
+              </p>
+            </article>
+
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="contact-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
-      <div class="shell contact-inner">
-        <p class="eyebrow">04 / GET IN TOUCH</p>
-        <h2 id="contact-title">Let’s start a<br><em>conversation.</em></h2>
-        <p class="contact-intro">Interested in connecting? I’d love to hear from you. Reach out on LinkedIn, or add an email address below.</p>
-        <div class="contact-details">
-          <!-- PERSONALIZE: Add a real email address when you want to share one. -->
-          <div class="contact-item"><span class="contact-label">EMAIL</span><span class="contact-value">[ADD YOUR EMAIL ADDRESS]</span></div>
-          <div class="contact-item"><span class="contact-label">LINKEDIN</span><a class="contact-value contact-link" href="https://www.linkedin.com/in/georgia-compagno/" target="_blank" rel="noopener noreferrer" aria-label="Visit Georgia Compagno’s LinkedIn profile (opens in a new tab)">linkedin.com/in/georgia-compagno/ <span aria-hidden="true">↗</span></a></div>
+    <!-- SKILLS -->
+    <section class="section section-skills" id="skills">
+      <div class="shell section-grid">
+
+        <div class="section-aside">
+          <p class="section-index">04 <span>/</span> SKILLS</p>
+          <span class="aside-rule"></span>
+          <p class="aside-note">Knowledge and<br>capabilities.</p>
         </div>
-        <p class="contact-reminder">Email is a placeholder; LinkedIn is ready to visit.</p>
+
+        <div class="section-main skills-main">
+          <p class="eyebrow">SKILLS & CERTIFICATIONS</p>
+
+          <h2>What I bring <em>to the table.</em></h2>
+
+          <p class="skills-intro">
+            A combination of analytical coursework,
+            business leadership, technology interests,
+            and professional experience.
+          </p>
+
+          <ul class="skill-list" aria-label="Professional skills">
+            <li>Microsoft Excel</li>
+            <li>Financial Accounting</li>
+            <li>Business Strategy</li>
+            <li>Strategic Planning</li>
+            <li>Organizational Leadership</li>
+            <li>Team Coordination</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Event Planning</li>
+            <li>Artificial Intelligence Fundamentals</li>
+            <li>Microsoft Office</li>
+            <li>Customer Relations</li>
+          </ul>
+
+          <div class="about-note">
+            <span class="note-mark">✳</span>
+            <p>
+              Microsoft Office Specialist: Excel Associate
+              (Microsoft 365 Apps), 2026.
+              Additional AI training through Anthropic Claude Academy.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="contact-decoration">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="shell contact-inner">
+
+        <p class="eyebrow">05 / GET IN TOUCH</p>
+
+        <h2>Let's start a<br><em>conversation.</em></h2>
+
+        <p class="contact-intro">
+          I'm always interested in learning from professionals,
+          exploring new opportunities, and connecting with
+          people working in finance, consulting, artificial
+          intelligence, and business strategy.
+        </p>
+
+        <div class="contact-details">
+
+          <div class="contact-item">
+            <span class="contact-label">EMAIL</span>
+            <a class="contact-value contact-link"
+               href="mailto:gcompagno@tulane.edu">
+              gcompagno@tulane.edu ↗
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">LINKEDIN</span>
+            <a class="contact-value contact-link"
+               href="https://www.linkedin.com/in/georgia-compagno/"
+               target="_blank"
+               rel="noopener noreferrer">
+              linkedin.com/in/georgia-compagno/ ↗
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">GITHUB</span>
+            <a class="contact-value contact-link"
+               href="https://github.com/georgiacompagno"
+               target="_blank"
+               rel="noopener noreferrer">
+              github.com/georgiacompagno ↗
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="shell footer-inner"><a class="wordmark footer-wordmark" href="#home" aria-label="Back to top">GC<span>.</span></a><p>Made with intention in New Orleans <span aria-hidden="true">✳</span></p><a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a></div>
+    <div class="shell footer-inner">
+      <a class="wordmark footer-wordmark" href="#home">
+        GC<span>.</span>
+      </a>
+
+      <p>Georgia Compagno · Tulane University · Class of 2029</p>
+
+      <a class="back-to-top" href="#home">
+        BACK TO TOP ↑
+      </a>
+    </div>
   </footer>
+
 </body>
 </html>
